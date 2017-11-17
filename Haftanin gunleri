@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+main () {
+    int x;
+
+    cout <<" 1-7 arasinda bir sayi giriniz : ";
+    cin >> x;
+
+     switch (x) {
+
+     case 1 : { cout << "Gunlerden pazartesi" << endl; }
+         break;
+     case 2 : { cout << "Gunlerden sali" << endl; }
+          break;
+     case 3 : { cout << "Gunlerden carsamba" << endl; }
+          break;
+     case 4 : { cout << "Gunlerden persembe" << endl; }
+          break;
+     case 5 : { cout << "Gunlerden cuma" << endl; }
+          break;
+     case 6 : { cout << "Gunlerden cumartesi" << endl; }
+          break;
+     case 7 : { cout << "Gunlerden pazar" << endl; }
+          break;
+
+
+    default : { cout << "Oyle bir gun yok" ;
+        break;
+
+    }
+        cin >> x;
+
+}
+}
+
