@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+long faktoriyel (long);
+
+int main () {
+
+    cout << faktoriyel (6) << endl;
+
+    return 0;
+    }
+
+long faktoriyel(long number) {
+    if (number <= 1)
+
+        return 1;
+
+    else
+        return number * faktoriyel(number -1) ; 
+        }
