@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+    int k = 0;
+
+    for (k=1 ; k; k++){
+
+    cout<< k<< endl;
+
+ }
+cin >> k;
+
+}
