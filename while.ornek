@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+    int a,toplam;
+
+   toplam = 0;
+
+   cout <<"Bir sayi giriniz (1-100 arasinda) :";
+   cin >>a;
+
+   while (a<101) {
+       toplam = toplam + a;
+       a= a+1;
+
+        }
+   cout <<"Sayilarin tolami :" << toplam ;
+
+   cin >> a;
+
+}
